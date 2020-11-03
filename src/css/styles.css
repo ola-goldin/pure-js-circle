@@ -21,8 +21,14 @@ body {
   border-radius: 50px;
   background: blue;
 }
+.circle:hover{
+  background: transparent;
+    border: 1px solid blue;
+}
+
 #piece {
   position: absolute;
   top: 100px;
   left: 50%;
+  transition: all .2s ease-in;
 }
